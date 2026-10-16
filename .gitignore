@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Local configuration (may contain API keys)
+.env
+.env.local
+
+# Data / regenerable artefacts — these belong OUTSIDE the repository.
+# Default layout is $HOME/rag-data + $HOME/rag-models, but people do point them here.
+rag-data/
+rag-models/
+data/
+Data/
+Output/
+output/
+prefig/
+incoming/*
+!incoming/.gitkeep
+tmp/*
+!tmp/.gitignore
+.vector_db/
+vector_db/
+chroma_data/
+.retrieval_index/
+**/.mplcache/
+*.bak-*
+*.npy
+*.npz
+*.csv
+*.tsv
+*.gguf
+*.pdf
+*.mp4
+*.zip
+*.tar.gz
+*.jsonl
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
